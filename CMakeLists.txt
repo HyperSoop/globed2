@@ -27,7 +27,7 @@ else()
 endif()
 
 # Check for debug build
-option(ENABLE_DEBUG "Debug mode" OFF)
+option(ENABLE_DEBUG "Debug mode" ON)
 option(GLOBED_RELEASE "Release build" OFF)
 
 if (CMAKE_BUILD_TYPE STREQUAL "Debug" OR "${CMAKE_BUILD_TYPE}asdf" STREQUAL "asdf" OR ENABLE_DEBUG)
